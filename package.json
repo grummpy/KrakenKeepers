@@ -1,0 +1,13 @@
+{
+  "name": "krakenkeepers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Four pirate ships, one shared sea, and a kraken that hunts the leader.",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node --test tests/",
+    "smoke": "python3 tests/smoke_server.py"
+  },
+  "license": "MIT"
+}
